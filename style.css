@@ -159,8 +159,8 @@ body {
 .last-left {
   /* display: flex;
   \\ */
-  flex: 1;
-  margin: 50px;
+  /* flex: 1; */
+  /* margin: 50px; */
 }
 .last-right {
   margin-right: 20px;
