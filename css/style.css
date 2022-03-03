@@ -73,23 +73,25 @@ body {
 .section-1 {
   height: 700px;
 }
-.sections {
+.main-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .section-text span {
   color: #0aad3b;
 }
 
-.section-left .section-text {
+.section-text .first-text-item {
   font-weight: 500;
   font-size: 80px;
 }
-.section-left p {
+.section-text h2 {
   font-size: 28px;
+  font-style: normal;
 }
-.section-left {
+.section-text {
   position: relative;
   right: 300px;
 }
@@ -97,25 +99,53 @@ body {
   color: #0aad3b;
   display: flex;
   flex-direction: row;
-  padding: 8px;
+  /* padding: 8px; */
 }
 .logo-1 {
   margin-right: 12px;
   display: flex;
   align-items: center;
 }
-.section-right {
+/* .section-right {
   /* margin-left: 70px; */
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-}
-.section-right img {
-  position: relative;
-  left: 340px;
+  /* position: absolute; */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* }  */
+/* .img-phones { */
+  /* position: relative; */
+  /* left: 340px; */
+  /* top: 100px; */
   /* padding: 8px; */
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */
+.image-iphone {
+  width: 274px;
+  height: 546px;
+  position: absolute;
+  right: 180px;
+  top: 40px;
+}
+  /* right: 207px;
+  top: -70px; */
+  /* width: 274px;
+  height: 546px;
+  top: 92px;
+  left: 706px; */
+/* } */
+.image-samsung {
+  width: 251px;
+  height: 528px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  /* right: 30px;
+  top: -100px; */
+  /* width: 251px;
+  height: 528px;
+  top: 63px;
+  left: 906px; */
 }
 /* section-1 end */
 
@@ -205,7 +235,7 @@ body {
 .footer-right img {
   height: 24px;
 }
-
+.contacts {
+  padding-right: 38px;
+}
 /* footer end */
-
-

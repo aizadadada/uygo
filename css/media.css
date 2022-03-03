@@ -1,181 +1,199 @@
 /* адаптивная верстка 1200px */
 @media screen and (max-width: 1200px) {
-    .container {
-      width: 768px;
-    }
-    .navbar {
-      display: flex;
-    }
-    .navbar-items {
-      display: flex;
-      justify-content: space-between;
-    }
-    .logo img {
-      width: 110px;
-    }
-    .navbar-left {
-      display: flex;
-      justify-content: space-between;
-    }
-    .navbar-btn {
-      width: 32px;
-      height: 32px;
-      border-radius: 40px;
-      background-color: #0aad3b;
-      display: flex;
-    }
-    .navbar-btn .phone-num {
-      display: none;
-    }
-    .navbar-language {
-      display: flex;
-      justify-content: space-between;
-    }
-    .navbar-left span {
-      display: none;
-    }
-    .sections {
-      display: flex;
-      justify-content: center;
-    }
-    .section-1 {
-      height: 500px;
-    }
-    .section-left {
-      position: relative;
-      right: 180px;
-    }
-    .section-left .section-text {
-      font-weight: 500;
-      font-size: 40px;
-    }
-    .section-left p {
-      font-size: 20px;
-    }
-    .section-left img {
-      width: 160px;
-      display: flex;
-      flex-direction: row;
-    }
-    .section-right {
-      /* margin-left: 70px; */
-      position: absolute;
-    }
-    .section-right img {
-      position: relative;
-      left: 190px;
-      top: 80px;
-      /* padding: 8px; */
-      /* display: flex; */
-      /* flex-direction: row; */
-      width: 360px;
-      height: 460px;
-    }
-    /* .section-right {
+  .container {
+    width: 768px;
+  }
+  .navbar {
+    display: flex;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo img {
+    width: 110px;
+  }
+  .navbar-left {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    background-color: #0aad3b;
+    display: flex;
+  }
+  .navbar-btn .phone-num {
+    display: none;
+  }
+  .navbar-language {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-left span {
+    display: none;
+  }
+  .main-section {
+    display: flex;
+    justify-content: center;
+  }
+  .section-1 {
+    height: 500px;
+  }
+  .section-text {
+    position: relative;
+    right: 180px;
+  }
+  .section-text .first-text-item {
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .section-text h2 {
+    font-size: 20px;
+  }
+  .section-text img {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+  }
+  /* .section-right { */
+  /* margin-left: 70px; */
+  /* position: relative; */
+  /* } */
+  /* .img-phones { */
+    /* position: relative; */
+    /* left: 190px; */
+    /* top: 80px; */
+    /* padding: 8px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* width: 360px; */
+    /* height: 460px; */
+  /* } */
+  .image-iphone {
+    width: 220px;
+    height: 439px;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    /* right: 207px;
+      top: -70px; */
+  }
+  .image-samsung {
+    width: 201px;
+    height: 422px;
+    position: absolute;
+    left: 565px;
+    top: 10px;
+    /* right: 30px;
+      top: -100px; */
+  }
+  /* .section-right {
       position: absolute;
     } */
-    /* .image-iphone img {
+  /* .image-iphone img {
       position: relative;
       left: 170px;
       /* padding: 36px; */
-      .section-items {
-        display: flex;
-        flex-wrap: wrap;
-        align-self: stretch;
-        flex-direction: column;
-        justify-content: center;
-      }
-      .products-part {
-        font-size: 24px;
-        /* width: 720px; */
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-      }
-      .products-part p {
-        font-size: 16px;
-      }
-      .arrow-part {
-        font-size: 24px;
-        /* width: 720px; */
-        /* height: 200px; */
-        display: flex;
-        flex-direction: column;
-      }
-      .arrow-part p {
-        font-size: 16px;
-      }
-      .delivery-part {
-        font-size: 24px;
-        /* width: 720px; */
-        /* height: 200px; */
-        display: flex;
-        flex-direction: column;
-      }
-      .delivery-part p {
-        font-size: 16px;
-      }
-      .last-left {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-      }
-      .last-left strong {
-        width: 100%;
-        font-size: 28px;
-        display: flex;
-        justify-content: center;
-      }
-      .last-left p {
-        display: none;
-      }
-      .last-section {
-        padding: 10px;
-        /* width: 100%; */
-        background-color: #0aad3b;
-      }
-      .last-items {
-        display: flex;
-        flex-direction: column;
-      }
-      .qr-code {
-        display: none;
-      }
-      .two-logo img {
-        width: 135px;
-      }
-      .footer-items {
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-      }
-      .footer-right {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        order: 1;
-      }
-      .footer-right .contacts {
-        padding: 24px;
-        width: 720px;
-        display: flex;
-        justify-content: center;
-      }
-      .footer-right {
-        font-size: 14px;
-      }
-      .footer-left {
-        padding: 24px;
-        order: 2;
-      }
-      .footer-left span {
-        margin-right: 45px;
-        font-size: 12px;
-      }
+  .section-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
   }
-  
-  /* адаптивная верстка 320px */
+  .products-part {
+    font-size: 24px;
+    /* width: 720px; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .products-part p {
+    font-size: 16px;
+  }
+  .arrow-part {
+    font-size: 24px;
+    /* width: 720px; */
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .arrow-part p {
+    font-size: 16px;
+  }
+  .delivery-part {
+    font-size: 24px;
+    /* width: 720px; */
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .delivery-part p {
+    font-size: 16px;
+  }
+  .last-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .last-left strong {
+    width: 100%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+  }
+  .last-left p {
+    display: none;
+  }
+  .last-section {
+    padding: 10px;
+    /* width: 100%; */
+    background-color: #0aad3b;
+  }
+  .last-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .qr-code {
+    display: none;
+  }
+  .two-logo img {
+    width: 135px;
+  }
+  .footer-items {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+  }
+  .footer-right .contacts {
+    padding: 24px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-right {
+    font-size: 14px;
+  }
+  .footer-left {
+    padding: 24px;
+    order: 2;
+  }
+  .footer-left span {
+    margin-right: 45px;
+    font-size: 12px;
+  }
+}
+
+/* адаптивная верстка 320px */
 /* @media screen and (max-width: 425px) {
   .container {
     max-width: 320px;
